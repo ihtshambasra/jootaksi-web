@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www.jootaksi.fi
-RewriteRule (.*) https://jootaksi.fi/$1 [R=301,L]
